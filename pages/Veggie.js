@@ -1,3 +1,4 @@
+import Image from "next/image"
 import pizza from ".././public/pizza.jpeg";
 
 export default function Veggie() {
