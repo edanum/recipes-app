@@ -1,7 +1,15 @@
+import styled from "styled-components";
+
 export default function Header() {
   return (
     <>
-      <h1>Header</h1>
+      <Heading>Header</Heading>
     </>
   );
 }
+
+const Heading = styled.h1`
+background-color: green;
+margin: 0px;
+padding: 10px;
+`
