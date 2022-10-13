@@ -10,5 +10,10 @@ export default function Footer() {
 
 
 const StyledFooter = styled.div `
-background-color: red;
+display: flex;
+position: fixed;
+background-color: gray;
+left: 0px;
+right: 0px;
+bottom: 0px;
 `

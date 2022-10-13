@@ -7,8 +7,9 @@ export default function Header() {
       <h1>Header</h1>
       <StyledNavigation>
         <Link href="/">Home</Link>
-        <Link href="/Dessert">Desserts</Link>
-        <Link href="/Veggie">Veggie</Link>
+        {/* <Link href="/Dessert">Desserts</Link>
+        <Link href="/Veggie">Veggie</Link> */}
+        <Link href="/products">Products</Link>
       </StyledNavigation>
     </StyledHeader>
   );
@@ -21,10 +22,12 @@ const StyledHeader = styled.div`
   top: 0px;
   background-color: green;
   margin: 0px;
+  left: 0px;
+  right: 0px;
   padding: 0px 20px 0px 20px;
   position: fixed;
-  width: 100%;
-  z-index: 1
+
+  z-index: 1;
 `;
 
 const StyledNavigation = styled.nav`
@@ -36,4 +39,3 @@ const StyledNavigation = styled.nav`
   padding: 10px;
   font-size: 30px;
 `;
-
